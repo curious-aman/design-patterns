@@ -6,6 +6,25 @@ public class LunchOrderBean {
   private String dressing;
   private String meat;
 
+  public LunchOrderBean(String bread) {
+    this.bread = bread;
+  }
+
+  public LunchOrderBean(String bread, String condiments) {
+    this(bread);
+    this.condiments = condiments;
+  }
+
+  public LunchOrderBean(String bread, String condiments, String dressing) {
+    this(bread, condiments);
+    this.dressing = dressing;
+  }
+
+  public LunchOrderBean(String bread, String condiments, String dressing, String Meat) {
+    this(bread, condiments, dressing);
+    this.meat = meat;
+  }
+
   public String getBread() {
     return bread;
   }
