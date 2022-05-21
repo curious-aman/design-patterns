@@ -1,4 +1,4 @@
-package com.aman.builder;
+package com.aman.creational.builder;
 
 public class LunchOrderBean {
   private String bread;

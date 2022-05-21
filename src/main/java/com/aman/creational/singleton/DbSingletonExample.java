@@ -1,4 +1,4 @@
-package com.aman.singleton;
+package com.aman.creational.singleton;
 
 import java.sql.Connection;
 import java.sql.SQLException;

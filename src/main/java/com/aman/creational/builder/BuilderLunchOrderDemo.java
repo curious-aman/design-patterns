@@ -1,4 +1,4 @@
-package com.aman.builder;
+package com.aman.creational.builder;
 
 public class BuilderLunchOrderDemo {
   public static void main(String[] args) {

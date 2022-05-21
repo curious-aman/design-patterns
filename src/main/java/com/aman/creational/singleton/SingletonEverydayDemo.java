@@ -1,4 +1,4 @@
-package com.aman.singleton;
+package com.aman.creational.singleton;
 
 public class SingletonEverydayDemo {
     public static void main(String[] args) {

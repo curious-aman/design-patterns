@@ -1,6 +1,4 @@
-package com.aman.singleton;
-
-import org.apache.derby.client.am.SqlException;
+package com.aman.creational.singleton;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
